@@ -16,7 +16,7 @@ public class StudentcourseManagementSys {
 	public static Connection getConnection() {
 	 String url = "jdbc:mysql://localhost:3306/details";
 	 String username = "root";
-	 String password = "hellodeb@2024";
+	 String password = "your password";
 	 Connection connection = null;
 	 try {
          Class.forName("com.mysql.cj.jdbc.Driver");
@@ -187,4 +187,5 @@ public class StudentcourseManagementSys {
 
 
 	
+
 
